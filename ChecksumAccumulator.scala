@@ -22,5 +22,3 @@ object ChecksumAccumulator {
       cs
     }
 }
-
-println(ChecksumAccumulator.calculate("Every value is an object."))

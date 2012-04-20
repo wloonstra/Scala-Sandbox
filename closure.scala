@@ -38,3 +38,6 @@ val incz9999 = increase(9999, _: Int)
 p (incz1(10))
 p (incz9999(10))
 
+val more2 = 10
+val increase2 = (x: Int) => x + more2
+

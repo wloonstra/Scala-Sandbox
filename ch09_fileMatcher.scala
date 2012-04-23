@@ -49,3 +49,27 @@ FileMatcher2.filesContaining("ch08").foreach(println)
 println("--- Matching .*[0-9]+.*")
 FileMatcher2.filesRegex(""".*[0-9]+.*""").foreach(println)
 
+object FileMatcher3 { // with passed in functions, ==> without Query string
+  def filesMatching(matcher: String => Boolean) = {
+    for (file <- filesHere; if matcher(file.getName))
+      yield file
+  }
+  
+  def filesEnding(query: String) =
+    filesMatching((fileName: String) => fileName.endsWith(query)) // complete written down
+
+  def filesContaining(query: String) =
+    filesMatching(_.contains(query)) // short version...!
+
+  def filesRegex(query: String) =
+    filesMatching(_.matches(query))
+}
+
+println("--- Ending .class")
+FileMatcher3.filesEnding(".class").foreach(println)
+
+println("--- Contains ch08")
+FileMatcher3.filesContaining("ch08").foreach(println)
+
+println("--- Matching .*[0-9]+.*")
+FileMatcher3.filesRegex(""".*[0-9]+.*""").foreach(println)

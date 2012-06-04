@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch16_higher_order_functions.scala</string>
+	<string>ch16_filtering_on_lists.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,14 +21,28 @@
 	<integer>295</integer>
 	<key>metaData</key>
 	<dict>
-		<key>ch16_higher_order_functions.scala</key>
+		<key>ch16_filtering_on_lists.scala</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>44</integer>
+				<integer>18</integer>
 				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>ch16_flatmap.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
 				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -96,13 +110,14 @@
 	<array>
 		<string>ch16_list_functions.scala</string>
 		<string>ch16_merge_sort.scala</string>
-		<string>ch16_higher_order_functions.scala</string>
+		<string>ch16_flatmap.scala</string>
+		<string>ch16_filtering_on_lists.scala</string>
 		<string>text.txt</string>
 		<string>summer.scala</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{782, 373}, {1135, 805}}</string>
+	<string>{{785, 373}, {1135, 805}}</string>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch16_multiple_lists.scala</string>
+	<string>ch17_collections.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -135,6 +135,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ch17_collections.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>56</integer>
+				<key>line</key>
+				<integer>47</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>4</integer>
+		</dict>
 		<key>summer.scala</key>
 		<dict>
 			<key>caret</key>
@@ -168,6 +182,7 @@
 	<array>
 		<string>ch16_list_functions.scala</string>
 		<string>ch16_multiple_lists.scala</string>
+		<string>ch17_collections.scala</string>
 		<string>ch16_merge_sort.scala</string>
 		<string>ch16_flatmap.scala</string>
 		<string>ch16_filtering_on_lists.scala</string>
@@ -179,6 +194,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{785, 373}, {1135, 805}}</string>
+	<string>{{305, 73}, {1135, 805}}</string>
 </dict>
 </plist>

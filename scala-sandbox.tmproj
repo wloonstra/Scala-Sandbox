@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch17_collections.scala</string>
+	<string>ch17_map.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,156 +21,56 @@
 	<integer>295</integer>
 	<key>metaData</key>
 	<dict>
-		<key>ch16_filtering_on_lists.scala</key>
+		<key>ch17_arrays.scala</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>32</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>37</integer>
+				<integer>41</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>ch16_flatmap.scala</key>
+		<key>ch17_map.scala</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>9</integer>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>ch16_fold.scala</key>
+		<key>ch17_set.scala</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>38</integer>
-				<key>line</key>
-				<integer>40</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>ch16_list_functions.scala</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>34</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>2</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>34</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>34</integer>
-			</dict>
-		</dict>
-		<key>ch16_list_object.scala</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>34</integer>
-				<key>line</key>
 				<integer>18</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>ch16_merge_sort.scala</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>72</integer>
 				<key>line</key>
-				<integer>30</integer>
+				<integer>34</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>ch16_multiple_lists.scala</key>
+		<key>ch17_stringOps.scala</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>32</integer>
+				<integer>59</integer>
 				<key>line</key>
 				<integer>4</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>ch17_collections.scala</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>56</integer>
-				<key>line</key>
-				<integer>47</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>4</integer>
-		</dict>
-		<key>summer.scala</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>text.txt</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -180,20 +80,14 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>ch16_list_functions.scala</string>
-		<string>ch16_multiple_lists.scala</string>
-		<string>ch17_collections.scala</string>
-		<string>ch16_merge_sort.scala</string>
-		<string>ch16_flatmap.scala</string>
-		<string>ch16_filtering_on_lists.scala</string>
-		<string>ch16_fold.scala</string>
-		<string>ch16_list_object.scala</string>
-		<string>text.txt</string>
-		<string>summer.scala</string>
+		<string>ch17_arrays.scala</string>
+		<string>ch17_map.scala</string>
+		<string>ch17_stringOps.scala</string>
+		<string>ch17_set.scala</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{305, 73}, {1135, 805}}</string>
+	<string>{{304, 73}, {1135, 805}}</string>
 </dict>
 </plist>

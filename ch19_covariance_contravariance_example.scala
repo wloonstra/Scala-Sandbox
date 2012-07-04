@@ -1,5 +1,6 @@
 class Publication(val title: String)
 class Book(title: String) extends Publication(title)
+class SubBook(title: String) extends Book(title)
 
 object Library {
   val books: Set[Book] =
@@ -15,7 +16,8 @@ object Library {
 
 object Customer {
   def runIt {
-    def getTitle(p: Publication): String = p.title         // --> Publication => String
+    def getTitle(p: Publication): String = p.title       // --> Publication => String
+//    def getTitle(sb: SubBook): String = sb.title         // --> SubBook => String  // doesn't compile.
     Library.printBookList(getTitle)
   }
 }
@@ -25,6 +27,11 @@ Customer.runIt
 // Book => AnyRef
 // Publication is used in Customer
 // Requires less: the body of getTitle is only allowed to use functions from what's declared in Publication
+// and all that is used in Publication is available in Book as well
+// The other way around, my own example SubBook, doesn't work. Here you could use all methods inside subbook,
+// but those are not garanteed to be available on Book itself!
+//
+// The methods on Publication will be executed on the _Book_'s in Library!!
 // -- contravariant
 
 // Provides more: it returns AnyRef.

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch19_covariance_contravariance_example.scala</string>
+	<string>ch20_abstract_var.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -147,6 +147,34 @@
 			<key>firstVisibleLine</key>
 			<integer>24</integer>
 		</dict>
+		<key>ch20_abstract.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>24</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>ch20_abstract_var.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>84</integer>
+				<key>line</key>
+				<integer>32</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>ch2_update.scala</key>
 		<dict>
 			<key>caret</key>
@@ -172,6 +200,8 @@
 		<string>ch19_type_parameterization.scala</string>
 		<string>ch19_type_parameterization_2.scala</string>
 		<string>ch19_covariance_contravariance_example.scala</string>
+		<string>ch20_abstract.scala</string>
+		<string>ch20_abstract_var.scala</string>
 		<string>ch17_stringOps.scala</string>
 		<string>ch17_set.scala</string>
 	</array>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch20_abstract_var.scala</string>
+	<string>ch20_abstract_members.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -161,6 +161,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ch20_abstract_members.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>15</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>ch20_abstract_var.scala</key>
 		<dict>
 			<key>caret</key>
@@ -202,12 +216,13 @@
 		<string>ch19_covariance_contravariance_example.scala</string>
 		<string>ch20_abstract.scala</string>
 		<string>ch20_abstract_var.scala</string>
+		<string>ch20_abstract_members.scala</string>
 		<string>ch17_stringOps.scala</string>
 		<string>ch17_set.scala</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{305, 73}, {1135, 805}}</string>
+	<string>{{581, 234}, {1135, 805}}</string>
 </dict>
 </plist>

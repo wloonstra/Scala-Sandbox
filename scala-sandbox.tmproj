@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch20_abstract_members.scala</string>
+	<string>ch20_abstract_type.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -175,6 +175,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ch20_abstract_type.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>34</integer>
+				<key>line</key>
+				<integer>25</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>ch20_abstract_var.scala</key>
 		<dict>
 			<key>caret</key>
@@ -183,6 +197,20 @@
 				<integer>84</integer>
 				<key>line</key>
 				<integer>32</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>ch20_lazy.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -217,12 +245,14 @@
 		<string>ch20_abstract.scala</string>
 		<string>ch20_abstract_var.scala</string>
 		<string>ch20_abstract_members.scala</string>
+		<string>ch20_lazy.scala</string>
+		<string>ch20_abstract_type.scala</string>
 		<string>ch17_stringOps.scala</string>
 		<string>ch17_set.scala</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{581, 234}, {1135, 805}}</string>
+	<string>{{787, 373}, {1135, 805}}</string>
 </dict>
 </plist>

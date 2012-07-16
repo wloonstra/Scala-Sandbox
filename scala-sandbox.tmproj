@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch20_abstract_type.scala</string>
+	<string>ch99_option.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -40,14 +40,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>79</integer>
+				<integer>29</integer>
 				<key>line</key>
-				<integer>48</integer>
+				<integer>69</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>28</integer>
+			<integer>29</integer>
 		</dict>
 		<key>ch17_map.scala</key>
 		<dict>
@@ -231,6 +231,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ch99_option.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>15</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
@@ -247,12 +261,13 @@
 		<string>ch20_abstract_members.scala</string>
 		<string>ch20_lazy.scala</string>
 		<string>ch20_abstract_type.scala</string>
+		<string>ch99_option.scala</string>
 		<string>ch17_stringOps.scala</string>
 		<string>ch17_set.scala</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{787, 373}, {1135, 805}}</string>
+	<string>{{304, 278}, {1615, 900}}</string>
 </dict>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>ch99_option.scala</string>
+	<string>ch20_currency_example.scala</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -203,6 +203,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>ch20_currency_example.scala</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>28</integer>
+				<key>line</key>
+				<integer>86</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>39</integer>
+		</dict>
 		<key>ch20_lazy.scala</key>
 		<dict>
 			<key>caret</key>
@@ -262,12 +276,13 @@
 		<string>ch20_lazy.scala</string>
 		<string>ch20_abstract_type.scala</string>
 		<string>ch99_option.scala</string>
+		<string>ch20_currency_example.scala</string>
 		<string>ch17_stringOps.scala</string>
 		<string>ch17_set.scala</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{304, 278}, {1615, 900}}</string>
+	<string>{{304, 4}, {1135, 874}}</string>
 </dict>
 </plist>

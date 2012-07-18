@@ -41,11 +41,12 @@ object Converter {
 }
 
 object US extends CurrencyZone {
-  abstract class Dollar extends AbstractCurrency {
+  abstract class Dollar extends AbstractCurrency { // still abstract class!
     def designation = "USD"
   }
   type Currency = Dollar
-  def make(cents: Long) = new Dollar { val amount = cents }
+  def make(cents: Long) = new Dollar { val amount = cents } // here, finally, the class is created completely
+                                                            // this is an anonymous subclass of Dollar
   val Cent = make(1)
   val Dollar = make(100)
   val CurrencyUnit = Dollar

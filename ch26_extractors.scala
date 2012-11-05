@@ -19,3 +19,12 @@ def mailString(str: String) = str match {
 
 println(mailString("wiggert@loonstra.nl"))
 println(mailString("bladiebla"))
+
+val Decimal = """(-)?(\d+)(\.\d*)?""".r
+
+val Decimal(sign, integerpart, decimalpart) = "-1.23"
+println(sign)
+println(integerpart)
+println(decimalpart)
+
+println("FIRST IN: " + Decimal.findFirstIn("-1.23 45 -82.89"))

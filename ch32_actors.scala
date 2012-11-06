@@ -27,3 +27,15 @@ val seriousActor2 = actor {
     println("That is the question.")
   Thread.sleep(1000)
 }
+
+val echoActor = actor {
+  while(true) {
+    receive {
+      case msg => println("received message: " + msg)
+    }
+  }
+}
+
+echoActor ! "bla"
+
+// in case of manual creation of actor: it needs to be started before it will do something with the received message
